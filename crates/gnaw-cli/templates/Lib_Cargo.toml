@@ -1,0 +1,14 @@
+[package]
+name = "tasks"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+gnaw-lib = { path= "../gnaw-lib" }
+
+[lib]
+path = "tasks.rs"
+crate-type = ["cdylib"]
+
+# Ensures the package doesn't think it's in a workspace
+[workspace]

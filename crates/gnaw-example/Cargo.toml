@@ -1,0 +1,10 @@
+[package]
+name = "gnaw-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gnaw-lib = { path= "../gnaw-lib" }
+
+[lib]
+crate-type = ["cdylib"]

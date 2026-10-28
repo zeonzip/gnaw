@@ -1,0 +1,3 @@
+[task-project]
+path = "./gnaw"
+context = "."

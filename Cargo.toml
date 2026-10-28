@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "crates/gnaw-lib",
+    "crates/gnaw-lib-macros",
+    "crates/gnaw-cli",
+    "crates/gnaw-example"
+]
+exclude = [
+    "crates/gnaw-cli/gnaw"
+]
+resolver = "3"
